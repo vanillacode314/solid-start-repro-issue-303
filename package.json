@@ -2,7 +2,7 @@
   "name": "repro-2",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build",
+    "build": "solid-start build && cp ./_redirects netlify/",
     "start": "solid-start start"
   },
   "type": "module",
